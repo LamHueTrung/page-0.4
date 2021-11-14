@@ -9,6 +9,8 @@
     .header {
         position: relative;
         margin: 8px 0px;
+        width: 100%;
+        margin: 0;
     }
     .container {
         position: absolute;
@@ -19,12 +21,13 @@
     }
     .header_items a {
         margin-left: 8px;
+        display: block;
     }
     .header_list {
         background: aliceblue;
         border: 1px solid #266cec;
         border-radius: 4px;
-        margin: 0 0 0 5px;
+        margin: 0;
         padding-left: 0px;
     }
     .header_list-mobile {
@@ -42,11 +45,10 @@
     }
     .gird__column-2 {
         display: block;
-        width: 62%;
     }
     .content_LT {
         margin: 0 20px;
-        width: 82%;
+        width: 90%;
     }
     .container h1 {
         margin-left: 25px;
@@ -54,7 +56,7 @@
         text-align: inherit;
     }
     .content__HD {
-        width: 82%;
+        width: 100%;
     }
     .video {
         width: 90%;
@@ -62,12 +64,4 @@
     .container__note {
         margin-left: 24px;
     }
-    .BT__output-1 {
-        max-width: 90%;
-    }
-    .BT__noi-dung {
-        width: 90%;
-    }
-    
-    
 }
